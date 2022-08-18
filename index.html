@@ -10,24 +10,165 @@
 
 <body>
         <div class="wrapper">
-            <div class="header"></div>
+            <div class="header">
+                <div class="headerTop">
+                    <div class="searchbox">
+                        <img class='icon' id="searchIcon" src="icons/magnify.png">
+                        <input type="text">
+                    </div>
+                    <div class="profile">
+                        <img class='icon' id="notifications" src="icons/bell-ring-outline.png">
+                        <img id="profileImg" src="https://m.media-amazon.com/images/M/MV5BMTk1NWExN2QtOTYxYi00Yzg4LTkzOGYtYmI2ZjQ5YTRjMjczXkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_.jpg">
+                        <h4>Morgan Oakley</h4>
+                    </div>
+                </div>
+                <div class="headerBottom">
+                    <div class="greetings">
+                        <img id="profileImg" src="https://m.media-amazon.com/images/M/MV5BMTk1NWExN2QtOTYxYi00Yzg4LTkzOGYtYmI2ZjQ5YTRjMjczXkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_.jpg">
+                        <div>
+                            <p>Hi there,</p>
+                            <h1>Morgan Oakley (@morgan)</h1>
+                        </div>
+                    </div>
+                    <div id="actionButtons"> 
+                        <button>New</button>
+                        <button>Upload</button>
+                        <button>Share</button>
+                    </div>
+                </div>
+            </div>
             <div class="sidebar">
-                <div class="logo"><img src="https://cdn-icons-png.flaticon.com/512/1828/1828765.png"><h1>Dashboard</h1></div>
+                <div class="logo"><img src="icons/view-dashboard (1).png"><h1>Dashboard</h1></div>
                 <ul class="navigation">
-                    <li><img src="https://cdn-icons.flaticon.com/png/512/2549/premium/2549900.png?token=exp=1660761934~hmac=5776ce119ebf3596ec1d267dcba5a751" alt="home icon"><p>Home</p></li>
-                    <li><img src="https://cdn-icons-png.flaticon.com/512/3596/3596091.png" alt="Profile Icon"><p>Profile</p></li>
-                    <li><img src="https://cdn-icons-png.flaticon.com/512/1246/1246332.png" alt="Messages Icon"><p>Messages</p></li>
-                    <li><img src="https://cdn-icons.flaticon.com/png/512/3106/premium/3106767.png?token=exp=1660762161~hmac=531b9e616128bf3d10b731deaf40fd26" alt="History Icon"><p>History</p></li>
-                    <li><img src="https://cdn-icons.flaticon.com/png/512/3073/premium/3073439.png?token=exp=1660762280~hmac=20c5ced7272d2799175197ced7e642a6" alt="Tasks Icon"><p>Tasks</p></li>
-                    <li><img src="https://cdn-icons.flaticon.com/png/512/1769/premium/1769041.png?token=exp=1660762312~hmac=97d89871123eda02a78760a00d9ac78e" alt="Comumnities Icon"><p>Comumnities</p></li>
+                    <li><img class='icon' src="icons/home.png" alt="home icon"><p>Home</p></li>
+                    <li><img class='icon' src="icons/card-account-details-outline.png" alt="Profile Icon"><p>Profile</p></li>
+                    <li><img class='icon' src="icons/message-reply.png" alt="Messages Icon"><p>Messages</p></li>
+                    <li><img class='icon' src="icons/clock-time-three.png"History Icon"><p>History</p></li>
+                    <li><img class='icon' src="icons/note-multiple.png" alt="Tasks Icon"><p>Tasks</p></li>
+                    <li><img class='icon' src="icons/account-group.png" alt="Comumnities Icon"><p>Comumnities</p></li>
                 </ul>
                 <ul class="branding">
-                    <li><img src="https://cdn-icons.flaticon.com/png/512/3225/premium/3225632.png?token=exp=1660762464~hmac=58f19aa647766efdcbce3c898a39d19f" alt="Settings Icon"><p>Settings</p></li>
-                    <li><img src="https://cdn-icons-png.flaticon.com/512/8263/8263348.png" alt="Support Icon"><p>Support</p></li>
-                    <li><img src="https://cdn-icons-png.flaticon.com/512/388/388531.png" alt="Privacy Icon"><p>Privacy</p></li>
+                    <li><img class='icon' src="icons/cog.png" alt="Settings Icon"><p>Settings</p></li>
+                    <li><img class='icon' src="icons/help-box.png" alt="Support Icon"><p>Support</p></li>
+                    <li><img class='icon' src="icons/shield-check.png" alt="Privacy Icon"><p>Privacy</p></li>
                 </ul>
             </div>
-            <div class="main-content"></div>
+            <div class="main-content">
+                <div class="projects">
+                    <h2>Your Projects</h2>
+                    <div class="projectsHolder">
+                        <div class="projectCard">
+                            <h3>Project Name</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit omnis porro odit inventore dolorem dolore doloribus ad suscipit dolorum deserunt?</p>
+                            <div> 
+                                <img src="icons/star-plus-outline.png"> 
+                                <img src="icons/eye-plus-outline.png">
+                                <img src="icons/source-branch.png">
+                            </div>
+                        </div>
+                        <div class="projectCard">
+                            <h3>Project Name</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit omnis porro odit inventore dolorem dolore
+                                doloribus ad suscipit dolorum deserunt?</p>
+                            <div>
+                                <img src="icons/star-plus-outline.png">
+                                <img src="icons/eye-plus-outline.png">
+                                <img src="icons/source-branch.png">
+                            </div>
+                        </div>
+                        <div class="projectCard">
+                            <h3>Project Name</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit omnis porro odit inventore dolorem dolore
+                                doloribus ad suscipit dolorum deserunt?</p>
+                            <div>
+                                <img src="icons/star-plus-outline.png">
+                                <img src="icons/eye-plus-outline.png">
+                                <img src="icons/source-branch.png">
+                            </div>
+                        </div>
+                        <div class="projectCard">
+                            <h3>Project Name</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit omnis porro odit inventore dolorem dolore
+                                doloribus ad suscipit dolorum deserunt?</p>
+                            <div>
+                                <img src="icons/star-plus-outline.png">
+                                <img src="icons/eye-plus-outline.png">
+                                <img src="icons/source-branch.png">
+                            </div>
+                        </div>
+                        <div class="projectCard">
+                            <h3>Project Name</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit omnis porro odit inventore dolorem dolore
+                                doloribus ad suscipit dolorum deserunt?</p>
+                            <div>
+                                <img src="icons/star-plus-outline.png">
+                                <img src="icons/eye-plus-outline.png">
+                                <img src="icons/source-branch.png">
+                            </div>
+                        </div>
+                        <div class="projectCard">
+                            <h3>Project Name</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit omnis porro odit inventore dolorem dolore
+                                doloribus ad suscipit dolorum deserunt?</p>
+                            <div>
+                                <img src="icons/star-plus-outline.png">
+                                <img src="icons/eye-plus-outline.png">
+                                <img src="icons/source-branch.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="announcements">
+                    <h2>Announcements</h2>
+                    <div class="announcementsHolder">
+                        <div class="event">
+                            <h4>Cool Event</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, saepe?</p>
+                        </div>
+                        <div class="event">
+                            <h4>Cool Event</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, saepe?</p>
+                        </div>
+                        <div class="event">
+                            <h4>Cool Event</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, saepe?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending">
+                    <h2>Trending</h2>
+                    <div class="trendingHolder">
+                        <div class="users">
+                            <img id="usersImg" src="https://m.media-amazon.com/images/M/MV5BMTk1NWExN2QtOTYxYi00Yzg4LTkzOGYtYmI2ZjQ5YTRjMjczXkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_.jpg">
+                            <div class="user">
+                                <h4>@User</h4>
+                                <p>User's description</p>
+                            </div>
+                        </div>
+                        <div class="users">
+                            <img id="usersImg" src="https://m.media-amazon.com/images/M/MV5BMTk1NWExN2QtOTYxYi00Yzg4LTkzOGYtYmI2ZjQ5YTRjMjczXkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_.jpg">
+                            <div class="user">
+                                <h4>@User</h4>
+                                <p>User's description</p>
+                            </div>
+                        </div>
+                        <div class="users">
+                            <img id="usersImg" src="https://m.media-amazon.com/images/M/MV5BMTk1NWExN2QtOTYxYi00Yzg4LTkzOGYtYmI2ZjQ5YTRjMjczXkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_.jpg">
+                            <div class="user">
+                                <h4>@User</h4>
+                                <p>User's description</p>
+                            </div>
+                        </div>
+                        <div class="users">
+                            <img id="usersImg" src="https://m.media-amazon.com/images/M/MV5BMTk1NWExN2QtOTYxYi00Yzg4LTkzOGYtYmI2ZjQ5YTRjMjczXkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_.jpg">
+                            <div class="user">
+                                <h4>@User</h4>
+                                <p>User's description</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 </body>
 </html>
